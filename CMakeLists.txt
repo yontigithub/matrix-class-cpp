@@ -10,5 +10,4 @@ add_executable(matrix_class_cpp
     Exceptions.h
     main.cpp
     Matrix.h
-    utils.h
-    utils.cpp)
+    utils.h)

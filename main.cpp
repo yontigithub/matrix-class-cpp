@@ -4,13 +4,12 @@
 
 #include <iostream>
 #include "Matrix.h"
-using namespace std;
 
 
 int main() {
     Matrix<int> m({5,5}, 'I');
 
-    Matrix<int> x = 500 * m;
+    Matrix<int> x = m * m;
 
-    cout << (x.transpose());
+    std::cout << x.transpose();
 }
